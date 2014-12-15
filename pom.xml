@@ -1,0 +1,31 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<artifactId>bc-parent</artifactId>
+		<groupId>cn.bc</groupId>
+		<version>1.0-SNAPSHOT</version>
+		<relativePath>../bc-framework/bc-parent/pom.xml</relativePath>
+	</parent>
+	<artifactId>bc-team</artifactId>
+	<description>团队协作</description>
+
+	<dependencies>
+		<dependency>
+			<groupId>javax.persistence</groupId>
+			<artifactId>persistence-api</artifactId>
+			<scope>provided</scope>
+		</dependency>
+		<dependency>
+			<groupId>javax.servlet</groupId>
+			<artifactId>servlet-api</artifactId>
+			<scope>provided</scope>
+		</dependency>
+	</dependencies>
+
+	<scm>
+		<connection>scm:git:git@192.168.0.222:bc-team.git</connection>
+		<developerConnection>scm:git:git@192.168.0.222:bc-team.git</developerConnection>
+		<url>https://localhost/bc-team</url>
+	</scm>
+</project>
